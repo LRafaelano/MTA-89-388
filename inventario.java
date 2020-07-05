@@ -14,7 +14,7 @@ public class inventario{
 		 Scanner entradaDatos = new Scanner(System.in);
 		// 3.captura de datos de entrada
 		String resp = "si";
-
+		//usar do while
 		while (resp.equals("si")) {
 			System.out.println("-----------PRODUCTO-----------");
 			System.out.println("Agregacion de un NUEVO PRODUCTO");
