@@ -13,8 +13,8 @@ public class WhileEjercicio{
 
         while (continuar ){
             //POR HACER: COMO AUMENTAR LA VARIABLE CON ++
-            contador++;
-            if(contador < 5){
+            
+            if(num <= contador){
                 System.out.println(num);
             }
             else
@@ -22,7 +22,17 @@ public class WhileEjercicio{
                 //finalizar la ejecucion del cicli while
                 continuar = false;
             }
+            num++;
         }
+       /* while(num <= contador){
+            if(num == contador){
+                System.out.println(continuar);
+            }
+            else{
+                System.out.println(continuar=false);
+            }
+            num++;
+        }*/
 
     }
 
